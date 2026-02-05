@@ -33,6 +33,18 @@ This decoupled architecture enables secure database access even in NTLM-protecte
 
 ---
 
+## Documentation
+
+- Technical Guide (PDF): [Download](docs/OCI_IAM_DB_Token_SQLDeveloper_Enterprise.pdf)
+- Technical Guide (docx): [Download](docs/OCI_IAM_DB_Token_SQLDeveloper_Enterprise.docx)
+
+## Architecture Diagram
+
+![IAM DB Token Authentication Flow](images/iam_sqldeveloper_sequence.png)
+
+Unified enterprise sequence diagram illustrating interactive IAM login, session-based OCI CLI fallback, manual token profile usage, NTLM proxy mediation, and mutual TLS enforcement for SQL Developer connectivity.
+
+
 ## ⚙ Repository Structure
 
 
